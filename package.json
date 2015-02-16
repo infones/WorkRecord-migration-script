@@ -1,0 +1,17 @@
+{
+  "name": "eDocu-WorkRecord-Script",
+  "version": "1.0.0",
+  "description": "Converts old work reports to new structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matej Polak <polakmatko@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^0.3.2",
+    "jsonschema": "^1.0.0",
+    "mongoose": "^3.8.23",
+    "q": "^1.1.2"
+  }
+}

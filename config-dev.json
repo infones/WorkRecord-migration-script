@@ -1,0 +1,3 @@
+{
+  "db": "mongodb://mongodb1.db.dev.edocu.local:27017/eDocu-development,mongodb://mongodb2.db.dev.edocu.local:27017/eDocu-development,mongodb://mongodb3.db.dev.edocu.local:27017/eDocu-development"
+}

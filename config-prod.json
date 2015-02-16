@@ -1,0 +1,3 @@
+{
+  "db": "mongodb://mongodb.1.db.prod.edocu.local:27017/eDocu-production,mongodb://mongodb.2.db.prod.edocu.local:27017/eDocu-production,mongodb://mongodb.3.db.prod.edocu.local:27017/eDocu-production"
+}

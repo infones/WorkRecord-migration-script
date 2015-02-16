@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "New Work Record structure",
+  "type": "object",
+  "required": [
+    "actionId",
+    "author",
+    "content",
+    "archive",
+    "organization",
+    "comments",
+    "files"
+  ],
+  "properties": {
+    "actionId": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "archive": {
+      "type": "boolean"
+    },
+    "organization": {
+      "type": "string"
+    },
+    "comments": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "required": [
+          "author",
+          "comment",
+          "organization"
+        ],
+        "properties": {
+          "author": {
+            "type": "string"
+          },
+          "comment": {
+            "type": "string"
+          },
+          "organization": {
+            "type": "string"
+          }
+        }
+      },
+      "files": {
+        "type": "array",
+        "minItems": 0,
+        "items": {
+          "type": "object",
+          "required": [
+            "originalName",
+            "hash"
+          ],
+          "properties": {
+            "originalName": {
+              "type": "string"
+            },
+            "hash": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
